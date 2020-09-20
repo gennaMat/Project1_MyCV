@@ -1,31 +1,6 @@
-FB.login(function(response) {
-    console.log(response);
-  }, {scope: 'user_birthday'});
-
-  FB.api(
-    '/me',
-    'GET',
-    {"fields":"id,name"},
-    function(response) {
-        // Insert your code here
-    }
-  );
-
-  FB.api(
-    '/me/feed',
-    'GET',
-    {},
-    function(response) {
-        // Insert your code here
-    }
-  );
-
-
-  FB.api(
-    '/{your-user-id}',
-    'GET',
-    {"fields":"birthday,email,hometown"},
-    function(response) {
-        // Insert your code here
-    }
-  );
+const inputValue = document.querySelector("#search");
+const searchButton = document.querySelector(".searchButton");
+const nameContainer = document.querySelector(".main__profile-name");
+const unContainer = document.querySelector(".main__profile-username");
+const reposContainer = document.querySelector(".main__profile-repos");
+const urlContainer = document.querySelector(".main__profile-url");
