@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     top: 0px;
     right: 0px;
-    bottom: 0px;
+    bottom: 30px;
     left: 0px;
     opacity: 0.75;
 
@@ -22,6 +22,27 @@ body {
       line-height: 1.5;
       color: #eee;
       color: rgba(10, 10, 10, 0.95);
+      padding-bottom: 30px;
+  }
+
+  .button {
+    border: black;
+    background-color: darkgrey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+  .button:hover {
+
+    border: black;
+    background-color: gray;
+
   }
  
 
@@ -29,12 +50,14 @@ body {
 
   #container { 
       padding-top: 50px;
+      padding-bottom: 30px;
   }
 
 
   #content {
       max-width: 45em;
       padding:10px;
+      padding-bottom: 30px;
       margin: 0 auto;
   }
 
@@ -95,10 +118,22 @@ body {
   
   
   html { font-size: 62.5%; }
-  body { font-size: 1em;}
-  
+  body { font-size: 1em;
+    padding-bottom: 30px;}
 
 
+  .striped-border { border: 1px dashed #000; width: 50%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
+
+
+  .column1{
+    float: left;
+  }
+  .column2{
+    float: center;
+  }
+  .column3{
+    float: right;
+  }
 
   /* THE CODE FOR THE PYRAMID */
   
